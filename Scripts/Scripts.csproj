@@ -658,6 +658,11 @@
     <Compile Include="Items\Artifacts\Equipment\Weapons\Glenda.cs" />
     <Compile Include="Items\Artifacts\Equipment\Weapons\BowOfTheInfiniteSwarm.cs" />
     <Compile Include="Items\Artifacts\Equipment\Weapons\TheDeceiver.cs" />
+    <Compile Include="Items\Books\SpecialScrollBooks\BaseSpecialScrollBook.cs" />
+    <Compile Include="Items\Books\SpecialScrollBooks\PowerScrollBook.cs" />
+    <Compile Include="Items\Books\SpecialScrollBooks\ScrollOfAlacrityBook.cs" />
+    <Compile Include="Items\Books\SpecialScrollBooks\ScrollOfTranscendenceBook.cs" />
+    <Compile Include="Items\Books\SpecialScrollBooks\SpecialScrollBookGump.cs" />
     <Compile Include="Items\Consumables\DeliciouslyTastyTreat.cs" />
     <Compile Include="Items\Consumables\IrresistiblyTastyTreat.cs" />
     <Compile Include="Items\Consumables\TastyTreat.cs" />
@@ -1750,6 +1755,7 @@
     <Compile Include="Items\Addons\Aquarium\Rewards\ToyBoat.cs" />
     <Compile Include="Items\Addons\Aquarium\Rewards\WaterloggedBoots.cs" />
     <Compile Include="Misc\Siege.cs" />
+    <Compile Include="Misc\SpawnerPersistence.cs" />
     <Compile Include="Misc\UntamedPetsCleaning.cs" />
     <Compile Include="Misc\WorldLocationInfo.cs" />
     <Compile Include="Mobiles\AI\PaladinAI.cs" />
@@ -11763,6 +11769,7 @@
     <Compile Include="Skills\RemoveTrap.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Skills\SkillCat.cs" />
     <Compile Include="Skills\Snooping.cs">
       <SubType>Code</SubType>
     </Compile>

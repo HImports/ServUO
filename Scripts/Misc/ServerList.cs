@@ -51,7 +51,7 @@ namespace Server.Misc
 
 		public static readonly bool AutoDetect = Config.Get("Server.AutoDetect", true);
 
-		public static string ServerName = Config.Get("Server.Name", "My Shard");
+		public static string ServerName = Config.Get("Server.Name", "UO Ethereal");
 
 		private static IPAddress _PublicAddress;
 

@@ -1,19 +1,17 @@
-﻿using System;
-
-namespace Server.Items
+﻿namespace Server.Items
 {
     [Furniture]
     [Flipable(0xF65, 0xF67, 0xF69)]
-    public class Easle : Item
+    public class PaintingEasle : Item
     {
         [Constructable]
-        public Easle()
+        public PaintingEasle()
             : base(0xF65)
         {
             this.Weight = 25.0;
         }
 
-        public Easle(Serial serial)
+        public PaintingEasle(Serial serial)
             : base(serial)
         {
         }
